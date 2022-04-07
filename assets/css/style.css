@@ -12,6 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: black;
+    letter-spacing: .3px;
 }
 
 /* headings */
@@ -24,7 +25,8 @@ h1, h2 {
 
 header {
     vertical-align: middle;
-    margin: 20px;
+    margin: 25px;
+    padding-bottom: 35px;
 }
 
 #page-name {
@@ -34,13 +36,13 @@ header {
 
 #menu {
     float: right;
-    font-size: 120%;
+    font-size: 125%;
 }
 
 #menu li {
     float: left;
     list-style-type: none;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 #menu a {
@@ -54,4 +56,20 @@ header {
 
 .active {
     font-weight: bold;
+}
+
+#penguin-facts {
+    clear: left;
+    margin-left: 25px;
+    padding: 25px;
+    width: 60%;
+    border: 1px solid black;
+}
+
+.facts {
+    padding: 15px 0 0 0;
+}
+
+p {
+    line-height: 1.5;
 }
