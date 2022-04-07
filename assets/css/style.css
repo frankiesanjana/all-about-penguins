@@ -43,3 +43,15 @@ header {
     margin: 0 15px;
 }
 
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+}
