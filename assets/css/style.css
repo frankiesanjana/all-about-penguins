@@ -58,12 +58,13 @@ header {
     font-weight: bold;
 }
 
+/* body styling */
+
 #penguin-facts, #penguin-size, #penguin-science {
     clear: left;
-    margin-left: 25px;
-    padding: 25px;
-    width: 60%;
-    border: 1px solid black;
+    margin-left: 1%;
+    padding: 25px 0 25px 25px;
+    width: 52%;
     float: left;
 }
 
@@ -71,18 +72,25 @@ header {
     padding: 15px 0 0 0;
 }
 
-p {
+p, tr {
     line-height: 1.5;
 }
 
-.image-with-caption {
-    padding: 25px;
+table {
+    width: 60%;
+}
+
+.image-box {
+    padding: 15px;
     float: right;
-    border: 1px solid black;
-    width: 30%;
+    width: 35%;
     display: inline;
     overflow: hidden;
-    margin-right: 25px;
+    margin-right: 2%;
+}
+
+.image-section {
+    margin-bottom: 25px;
 }
 
 #chinstrap-penguins {
@@ -94,7 +102,7 @@ p {
 }
 
 .image-caption {
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 footer {
