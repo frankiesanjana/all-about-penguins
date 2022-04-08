@@ -68,6 +68,10 @@ header {
     float: left;
 }
 
+#penguin-science {
+    margin-bottom: 80px;
+}
+
 .facts {
     padding: 15px 0 0 0;
 }
@@ -104,6 +108,7 @@ th, td {
     display: inline;
     overflow: hidden;
     margin-right: 2%;
+    margin-bottom: 80px;
 }
 
 .image-section {
@@ -125,4 +130,20 @@ th, td {
 footer {
     position: fixed;
     bottom: 0;
+    height: 75px;
+    width: 100%;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    font-size: 150%;
+}
+
+footer i {
+    color: black;
+    margin: 1.25%;
 }
