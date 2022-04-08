@@ -58,7 +58,7 @@ header {
     font-weight: bold;
 }
 
-/* body styling */
+/* text sections styling */
 
 #penguin-facts, #penguin-size, #penguin-science {
     clear: left;
@@ -72,13 +72,30 @@ header {
     padding: 15px 0 0 0;
 }
 
-p, tr {
+p, tr, .facts li {
     line-height: 1.5;
 }
 
 table {
-    width: 60%;
+    width: 65%;
+    padding: 7.5px;
 }
+
+th, td {
+    text-align: center;
+    padding: 1px 10px;
+}
+
+.facts li {
+    list-style-type: none;
+}
+
+#science-data li {
+    padding: 5px 0;
+}
+
+
+/* image styling */
 
 .image-box {
     padding: 15px;
