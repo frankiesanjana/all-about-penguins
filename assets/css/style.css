@@ -115,11 +115,7 @@ th, td {
     margin-bottom: 25px;
 }
 
-#chinstrap-penguins {
-    width: 100%;
-}
-
-#little-blue-penguin {
+#chinstrap-penguins, #little-blue-penguin, #feed-chick {
     width: 100%;
 }
 
@@ -146,4 +142,18 @@ footer li {
 footer i {
     color: black;
     margin: 1.25%;
+}
+
+/* video styling */
+
+#penguin-video {
+    clear: left;
+    margin-left: 1%;
+    padding: 25px 0 25px 25px;
+    width: 52%;
+    float: left;
+}
+
+video {
+    width: 100%;
 }
