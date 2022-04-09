@@ -60,7 +60,7 @@ header {
 
 /* text sections styling */
 
-#penguin-facts, #penguin-size, #penguin-science {
+#penguin-facts, #penguin-size, #penguin-science, {
     clear: left;
     margin-left: 1%;
     padding: 25px 0 25px 25px;
@@ -115,7 +115,7 @@ th, td {
     margin-bottom: 25px;
 }
 
-#chinstrap-penguins, #little-blue-penguin, #feed-chick {
+#chinstrap-penguins, #little-blue-penguin, #penguin-with-chick {
     width: 100%;
 }
 
@@ -155,5 +155,26 @@ footer i {
 }
 
 video {
+    width: 100%;
+}
+
+/* photo collage styling */
+
+#collage-intro {
+    clear: both;
+    margin-left: 1%;
+    padding: 25px 0 25px 25px;
+    width: 52%;
+    float: left;
+}
+
+#photo-collage {
+    clear: both;
+    line-height: 0;
+    column-gap: 0;
+    column-count: 4;
+}
+
+#photo-collage img {
     width: 100%;
 }
