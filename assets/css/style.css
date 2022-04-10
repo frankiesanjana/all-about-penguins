@@ -24,19 +24,24 @@ h1, h2 {
 /* header styling */
 
 header {
-    vertical-align: middle;
-    margin: 25px;
+    margin: 50px 25px 25px;
     padding-bottom: 35px;
 }
 
 #page-name {
     float: left;
     font-size: 200%;
+    line-height: .5;
 }
 
 #menu {
     float: right;
     font-size: 125%;
+    line-height: .8;
+}
+
+#menu ul {
+    vertical-align: middle;
 }
 
 #menu li {
