@@ -111,6 +111,16 @@ th, td {
     margin-bottom: 80px;
 }
 
+#gallery-image-box {
+    padding: 15px;
+    float: right;
+    width: 35%;
+    display: inline;
+    overflow: hidden;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
 .image-section {
     margin-bottom: 25px;
 }
@@ -163,7 +173,7 @@ video {
 #collage-intro {
     clear: both;
     margin-left: 1%;
-    padding: 25px 0 25px 25px;
+    padding: 0 0 25px 25px;
     width: 52%;
     float: left;
 }
@@ -173,18 +183,21 @@ video {
     line-height: 0;
     column-gap: 0;
     column-count: 4;
+    margin-bottom: 100px;
 }
 
 #photo-collage img {
     width: 100%;
 }
 
-/* form styling */
+/* contact form styling */
 
 #contact-form {
+    clear: both;
     background-color: lightgrey;
     margin: 20px 20px 80px;
     padding: 20px;
+    max-width: 450px;
 }
 
 #contact-form label {
@@ -204,4 +217,39 @@ button {
     padding: 10px 15px;
     border: 1px solid darkgrey;
     border-radius: 8px;
+}
+
+/* media queries */
+
+/* medium to large screen sizes up to 1000 pixels */
+
+@media screen and (max-width: 1000px) {
+    #menu {
+        clear: both;
+        float: left;
+        margin-top: 20px;
+    }
+    #more-info, textarea, .user-input {
+        max-width: 100%;
+    }
+}
+
+/* small to medium screen sizes up to 800 pixels */
+
+@media screen and (max-width: 800px) {
+    #penguin-facts, #penguin-size, #penguin-science, #fun-facts, #more-info {
+        width: 90%;
+        margin-right: 1%;
+        padding-right: 25px;
+    }
+    .image-box, #gallery-image-box, #penguin-video {
+        width: 90%;
+        margin-bottom: 0;
+    }
+    #penguin-size, #penguin-science, #more-info {
+        padding-top: 0;
+    }
+    #photo-collage {
+        column-count: 3;
+    }
 }
