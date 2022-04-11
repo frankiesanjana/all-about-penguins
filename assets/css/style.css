@@ -185,14 +185,9 @@ video {
 
 #photo-collage {
     clear: both;
-    line-height: 0;
-    column-gap: 0;
-    column-count: 4;
     margin-bottom: 100px;
-}
-
-#photo-collage img {
-    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 /* contact form styling */
