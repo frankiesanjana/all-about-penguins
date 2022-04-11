@@ -190,6 +190,10 @@ video {
     flex-flow: row wrap;
 }
 
+#photo-collage img {
+    max-width: 25%;
+}
+
 /* contact form styling */
 
 #contact-form {
@@ -232,6 +236,10 @@ button {
     #more-info, textarea, .user-input {
         max-width: 100%;
     }
+
+    #photo-collage img {
+        max-width: 33%;
+    }
 }
 
 /* small to medium screen sizes up to 800 pixels */
@@ -249,7 +257,15 @@ button {
     #penguin-size, #penguin-science, #more-info {
         padding-top: 0;
     }
-    #photo-collage {
-        column-count: 3;
+    #photo-collage img {
+        max-width: 50%;
+    }
+    #page-name {
+        font-size: 125%;
+        line-height: 1.5;
+        
+    }
+    h2 {
+        font-size: 100%;
     }
 }
