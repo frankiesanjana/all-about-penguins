@@ -134,7 +134,7 @@ th, td {
 }
 
 .image-caption {
-    padding: 10px 0;
+    padding: 0 0 10px;
 }
 
 footer {
@@ -227,11 +227,20 @@ button {
 /* medium to large screen sizes up to 1000 pixels */
 
 @media screen and (max-width: 1000px) {
+    
     #menu {
         clear: both;
         float: left;
         margin-top: 20px;
     }
+
+    #menu li {
+        float: left;
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
     #more-info, textarea, .user-input {
         max-width: 100%;
     }
@@ -239,32 +248,45 @@ button {
     #photo-collage img {
         max-width: 33%;
     }
+
 }
 
 /* small to medium screen sizes up to 800 pixels */
 
 @media screen and (max-width: 750px) {
+
     #penguin-facts, #penguin-size, #penguin-science, #fun-facts, #more-info {
         width: 90%;
         margin-right: 1%;
         padding-right: 25px;
     }
+
     .image-box, #gallery-image-box, #penguin-video {
         width: 90%;
         margin-bottom: 0;
     }
+
     #penguin-size, #penguin-science, #more-info {
         padding-top: 0;
     }
+
     #photo-collage img {
         max-width: 50%;
     }
+
     #page-name {
         font-size: 125%;
         line-height: 1.5;
-        
     }
-    h2 {
-        font-size: 100%;
+
+    #page-name {
+        font-size: 150%;
     }
+
+    #menu {
+        clear: both;
+        float: left;
+        margin-top: 10px;
+    }
+    
 }
