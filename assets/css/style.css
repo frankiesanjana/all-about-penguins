@@ -133,9 +133,16 @@ th, td {
     width: 100%;
 }
 
+#two-penguins {
+    width: 0;
+    height: 0;
+}
+
 .image-caption {
     padding: 0 0 10px;
 }
+
+/* footer styling */
 
 footer {
     position: fixed;
@@ -252,7 +259,7 @@ button {
         max-width: 33%;
     }
 
-        footer li {
+    footer li {
         vertical-align: middle;
     }
 
@@ -307,5 +314,11 @@ button {
 
     #penguin-video {
         padding: 25px;
+    }
+
+    #two-penguins {
+        width: 100%;
+        height: auto;
+        margin: 15px 0;
     }
 }
