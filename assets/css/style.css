@@ -256,7 +256,7 @@ button {
     }
 
     #photo-collage img {
-        max-width: 33%;
+        max-width: 33.333333333333333333333%;
     }
 
     footer li {
@@ -291,6 +291,10 @@ button {
         margin-bottom: 0;
     }
 
+    .image-box, #gallery-image-box {
+        margin-left: 2%;
+    }
+
     #penguin-size, #penguin-science, #more-info {
         padding-top: 0;
     }
@@ -305,6 +309,15 @@ button {
 
     div > section, table, #penguin-video {
         margin: auto;
+    }
+
+    table {
+        padding: 7.5px 0;
+    }
+
+    th, td {
+        font-size: 90%;
+        padding: 1px 5px;
     }
 
     #contact-form {

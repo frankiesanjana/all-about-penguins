@@ -32,7 +32,7 @@
         <h2>
                Penguin Fun Facts <i class="fa-brands fa-linux" aria-hidden="true"></i>
         </h2>
-        <section class="facts">
+        <div class="facts">
             <p>
                 No one knows for sure where the name 'penguin' came from. It could come from the Welsh ‘pen gwyn’, which means ‘white head’, or from the Latin ‘pinguis’, referring to the fat or blubber of the bird. The name penguin was first given to another type of bird, the auk (also a large, flightless, black and white bird).
             </p>
@@ -56,16 +56,16 @@
             <p>
                 A group of penguins on land is called a waddle, and a group of penguins in the water is a raft.
             </p>
-        </section>
+        </div>
     </section>
-    <section class="image-box">
-        <section class="image-section">
+    <div class="image-box">
+        <div class="image-section">
             <img id="king-penguins" src="assets/images/unsplash-king-penguins.jpg" alt="Two king penguins standing on a rocky beach by the shore">
             <p class="image-caption">
                 King penguins standing by the ocean
             </p>    
-        </section>
-    </section>
+        </div>
+    </div>
     <section id="more-info">
         <h2>
             Need more info? Let us know! <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i>
@@ -74,7 +74,7 @@
             Did you find what you were looking for on the site? Is there more you would like to know about penguins? Fill in our form and let us know!
         </p>
         <form id="contact-form" action="thank-you.html" method=POST>
-            <label for="fname">First Name</label>
+            <label for="fname">First Name (required)</label>
             <br>
             <input class="user-input" id="fname" name="fname" type="text" required>
             <br>
@@ -82,11 +82,11 @@
             <br>
             <input class="user-input" id="lname" name="lname" type="text">
             <br>
-            <label for="email">Email Address</label>
+            <label for="email">Email Address (required)</label>
             <br>
             <input class="user-input" id="email" name="email" type="email" required>
             <br>
-            <label for="comments">Comments</label>
+            <label for="comments">Comments (required)</label>
             <br>
             <textarea id="comments" name="comments" placeholder="Tell us what you think!" required></textarea>
             <br>
