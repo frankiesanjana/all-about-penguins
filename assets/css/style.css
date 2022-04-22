@@ -1,5 +1,8 @@
 /* link to import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Castoro&family=Work+Sans&display=swap');
+
+/* styles to apply to all elements */
 
 * {
     border: none;
@@ -15,7 +18,7 @@ body {
     letter-spacing: .3px;
 }
 
-/* headings */
+/* heading styling */
 
 h1, h2 {
     font-family: 'Castoro', serif;
@@ -265,7 +268,7 @@ button {
 
 }
 
-/* small to medium screen sizes up to 800 pixels */
+/* small to medium screen sizes up to 750 pixels */
 
 @media screen and (max-width: 750px) {
 
@@ -334,4 +337,10 @@ button {
         height: auto;
         margin: 15px 0;
     }
+
+    footer {
+        clear: both;
+        position: static;
+    }
+    
 }
