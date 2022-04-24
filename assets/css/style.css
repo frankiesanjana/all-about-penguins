@@ -200,6 +200,7 @@ video {
     flex-flow: row wrap;
     align-items: flex-start;
     padding: 0;
+    flex-direction: column;
 }
 
 #photo-collage img {
