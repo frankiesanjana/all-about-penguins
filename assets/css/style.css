@@ -233,6 +233,7 @@ button {
     padding: 10px 15px;
     border: 1px solid darkgrey;
     border-radius: 8px;
+    color: black;
 }
 
 /* media queries */

@@ -10,6 +10,8 @@ You can visit the live website [here](https://frankiesanjana.github.io/all-about
 
 ## Concept
 
+The website has been developed to provide a solution for the following user stories and owner goals. User stories are focused around specific needs that users to an informational site are likely to have. Owner goals take into account why a potential owner could be interested in developing such a website.
+
 ### User Stories
 
 - As a new visitor to the site, I want a site that is attractive, so that I enjoy using the site.
@@ -78,11 +80,66 @@ The fonts are designed to be clear and easy to read, and again intended to be re
 
 #### Media
 
-The pictures and video on the website were sourced from the stock photography sites [Pexels] (https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/). The two images on the information page are selected to show penguins in their two main habitats, to provide as complete an overview as possible in a limited number of images. The images are all selected because they are clear, attractive and interesting, and are intended to show a range of different types of penguins in different group sizes and settings. The video provides a visual impression of a group of penguins; unfortunately no suitable videos were available with sound.
+The pictures and video on the website were sourced from the stock photography sites [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/). The two images on the information page are selected to show penguins in their two main habitats, to provide as complete an overview as possible in a limited number of images. The images are all selected because they are clear, attractive and interesting, and are intended to show a range of different types of penguins in different group sizes and settings. The video provides a visual impression of a group of penguins; unfortunately no suitable videos were available with sound.
 
 #### Presentation
 
 The website is designed to maintain consistency of look and feel. For example, alignment is kept as consistent as possible within and between pages; sub-headings on all pages are always accompanied by Font Awesome images; images that do not fill the whole width of the viewport are displayed to the right of accompanying text, with any captions placed below the corresponding media. The style of writing and tone is also intended to maintain a consistent feel to the website.
 
 ## Features
+
+### Titles
+
+<img src="readme-images/screenshots/title.jpg" alt="Screenshot of a page title">
+
+- Each page has a heading that provides the user with an instant overview of the type of content they can expect to find on that page.
+- This allows the user to see at a glance what subject matter is addressed on each page.
+
+### Navigation Bar
+
+<img src="readme-images/screenshots/nav-bar.jpg" alt="Screenshot of the navigation bar as it appears on mobile">
+
+- Each page features a navigation bar, with the same keyword that is featured in the titles. This is identical between pages to allow for easy navigation.
+- This provides consistency to the user and allows them to navigate quickly and intuitively between the different pages, on any device, without needing to use the ‘back’ button.
+- The navigation bar appears as pictured below the main page headings on mobile; on larger screens above 1000 pixels it appears as a horizontal bar on the right-hand side of the page.
+
+### Subtitles
+
+<img src="readme-images/screenshots/subheading.jpg" alt="Screenshot of a subtitle">
+
+- Subheadings break the pages up into manageable and meaningful sections, to aid in within-page navigation and summarise their content.
+- Each subheading is accompanied by a relevant Font Awesome icon, to decorate the text and provide an at-a-glance hint as to the subject matter of the section.
+
+### Main Page
+
+- The landing page begins with some basic free text information and images, followed by a table containing some data and scientific classification information.
+- This section provides the user with plenty of information, while also featuring eye-catching images to draw the user’s attention.
+- The page aims to present the most useful information first, i.e., key information about penguins with images to show the detail of what they look like. The information on penguin size follows to give supporting information. The scientific classification is important and should be included but may not be immediately meaningful to many users, so this appears at the end of the page.
+
+### Gallery Page
+- This page begins with a video, to allow users to see penguin behaviour in motion.
+- The page also features plenty of images for users to enjoy and to learn more about the different types of penguins and what they look like. This includes a photo collage, which is designed using media queries to adjust in size based on the user's screen size, from 2 pictures wide on mobile devices up to 4 pictures wide on larger screens.
+
+### Trivia Page
+- This page features a trivia section, to provide interesting facts about penguins. 
+- The trivia section is accompanied by further images to provide further information and add interest.
+- On mobile devices, the "Fun Facts" section risks appearing overly long, with a large block of text in one go. To address this issue there is an image that displays on smaller screens only:
+
+### Contact Form
+- The trivia page also includes a contact form, so that users can submit questions that are not already answered on the site.
+- The form includes fields for a user to provide their first name, last name and email address, as well as a free text section for users to ask for more information.
+- The user’s first name, email address and comments or questions are required fields on the form, so that questions can be received and a response can be correctly addressed and sent
+- The last name is optional, since it is not necessary to collect this information in order to fulfil the purpose of the form. Some users may prefer not to provide their last name, and in some cultures people do not necessarily have both first and last names
+
+### "Form Received" page
+
+- This page is displayed when a user successfully submits a contact form.
+- It displays some text to assure a user that their form has been submitted correctly and the data received.
+- It is also designed to encourage users to spend further time on the site, by linking back to the main page in the thankyou text and including the normal navigation bar at the top of the page.
+
+### Footer
+- The footer contains links to the social media sites for All About Penguins. So that the user can navigate easily, these links will open in a new tab.
+- These links are valuable to the user because they will be able to receive updates and find out more information via social media.
+- Like the navigation bar, the footer will also be identical between the different pages. If a user initially does not click on a social media link but wishes to do so later while viewing a different page, this will allow them to find the link easily, without having to navigate between different pages.
+
 
