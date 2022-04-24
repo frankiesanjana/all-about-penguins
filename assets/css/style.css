@@ -198,14 +198,10 @@ video {
     margin-bottom: 100px;
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
-    padding: 0;
-    flex-direction: column;
 }
 
 #photo-collage img {
     max-width: 25%;
-    height: intrinsic;
 }
 
 /* contact form styling */
