@@ -199,11 +199,11 @@ video {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
-    padding: 0;
 }
 
 #photo-collage img {
     max-width: 25%;
+    height: 33.3333333333333333333333%;
 }
 
 /* contact form styling */
