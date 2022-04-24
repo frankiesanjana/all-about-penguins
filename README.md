@@ -62,7 +62,7 @@ The website consists of three main pages, with a short fourth page.
 - The third page combines the trivia information with a contact form. This is because users who are looking for more information in the trivia section but do not find what they are looking for are likely to want to fill out the contact form.
 - The fourth page provides a message for users who have submitted the contact form, and redirects them back to the site's main page.
 
-The website is multi-page to enable easier navigation. Navigation could be difficult if the whole website was placed on a single page.
+The website is multi-page to enable easier navigation. Navigation could be difficult if the whole website was placed on a single page since the amount of content on one page would become unwieldy.
 
 ### Plane 4: Skeleton
 
@@ -112,20 +112,37 @@ The website is designed to maintain consistency of look and feel. For example, a
 
 ### Main Page
 
+<img src="readme-images/screenshots/main-page.jpg" alt="Screenshot of the main page of the website as it appears on larger screens">
+
 - The landing page begins with some basic free text information and images, followed by a table containing some data and scientific classification information.
 - This section provides the user with plenty of information, while also featuring eye-catching images to draw the user’s attention.
 - The page aims to present the most useful information first, i.e., key information about penguins with images to show the detail of what they look like. The information on penguin size follows to give supporting information. The scientific classification is important and should be included but may not be immediately meaningful to many users, so this appears at the end of the page.
 
 ### Gallery Page
+
+<img src="readme-images/screenshots/gallery-video.jpg" alt="Screenshot of the gallery page with video as it appears on mobile">
+
 - This page begins with a video, to allow users to see penguin behaviour in motion.
+
+<img src="readme-images/screenshots/gallery-collage.jpg" alt="Screenshot of the gallery page with photo collage as it appears on mobile">
+
 - The page also features plenty of images for users to enjoy and to learn more about the different types of penguins and what they look like. This includes a photo collage, which is designed using media queries to adjust in size based on the user's screen size, from 2 pictures wide on mobile devices up to 4 pictures wide on larger screens.
 
 ### Trivia Page
+
+<img src="readme-images/screenshots/trivia-page.jpg" alt="Screenshot of the trivia page as it appears on larger screens">
+
 - This page features a trivia section, to provide interesting facts about penguins. 
 - The trivia section is accompanied by further images to provide further information and add interest.
-- On mobile devices, the "Fun Facts" section risks appearing overly long, with a large block of text in one go. To address this issue there is an image that displays on smaller screens only:
+
+<img src="readme-images/screenshots/image-text.jpg" alt="Screenshot of the text and image on the trivia page as it appears on mobile">
+
+- On mobile devices, the "Fun Facts" section risks appearing overly long, with a large block of text in one go. To address this issue there is an image that displays on smaller screens only to break up the text.
 
 ### Contact Form
+
+<img src="readme-images/screenshots/contact-form.jpg" alt="Screenshot of the contact form as it appears on mobile">
+
 - The trivia page also includes a contact form, so that users can submit questions that are not already answered on the site.
 - The form includes fields for a user to provide their first name, last name and email address, as well as a free text section for users to ask for more information.
 - The user’s first name, email address and comments or questions are required fields on the form, so that questions can be received and a response can be correctly addressed and sent
@@ -133,13 +150,18 @@ The website is designed to maintain consistency of look and feel. For example, a
 
 ### "Form Received" page
 
+<img src="readme-images/screenshots/thankyou-page.jpg" alt="Screenshot of the thankyou page as it appears on mobile">
+
 - This page is displayed when a user successfully submits a contact form.
 - It displays some text to assure a user that their form has been submitted correctly and the data received.
 - It is also designed to encourage users to spend further time on the site, by linking back to the main page in the thankyou text and including the normal navigation bar at the top of the page.
 
 ### Footer
-- The footer contains links to the social media sites for All About Penguins. So that the user can navigate easily, these links will open in a new tab.
+
+<img src="readme-images/screenshots/footer.jpg" alt="Screenshot of the footer as it appears on mobile">
+
+- The footer contains links to the social media sites for All About Penguins. So that the user can navigate easily, these links open in a new tab.
 - These links are valuable to the user because they will be able to receive updates and find out more information via social media.
-- Like the navigation bar, the footer will also be identical between the different pages. If a user initially does not click on a social media link but wishes to do so later while viewing a different page, this will allow them to find the link easily, without having to navigate between different pages.
+- Like the navigation bar, the footer is identical between the different pages. If a user initially does not click on a social media link but wishes to do so later while viewing a different page, this will allow them to find the link easily, without having to navigate between different pages.
 
 

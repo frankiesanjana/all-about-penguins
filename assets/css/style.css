@@ -198,6 +198,8 @@ video {
     margin-bottom: 100px;
     display: flex;
     flex-flow: row wrap;
+    align-items: flex-start;
+    padding: 0;
 }
 
 #photo-collage img {
