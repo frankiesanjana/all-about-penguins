@@ -164,4 +164,146 @@ The website is designed to maintain consistency of look and feel. For example, a
 - These links are valuable to the user because they will be able to receive updates and find out more information via social media.
 - Like the navigation bar, the footer is identical between the different pages. If a user initially does not click on a social media link but wishes to do so later while viewing a different page, this will allow them to find the link easily, without having to navigate between different pages.
 
+### Features Left to Implement
 
+As mentioned above, the following elements were not included at this stage but could be added to a future version:
+- Additional factual information about penguins
+- A quiz for users to test their knowledge and win a prize
+
+## Technologies Used
+
+### Languages
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks and Libraries
+
+- [Balsamiq](https://balsamiq.com/)
+- [GitHub](https://github.com/)
+- [Pexels](https://www.pexels.com/)
+- [Unsplash](https://unsplash.com/)
+- [Pixabay](https://pixabay.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Amiresponsive](http://ami.responsivedesign.is/)
+
+## Testing
+
+- Testing during coding took place by refreshing the browser preview in Chrome after each significant new section of code was written. Once the website started to take shape and especially as media queries were added, viewing the preview regularly on Dev Tools in Chrome was also important.
+
+### Manual Testing
+
+- Navigation: the following steps repeated on all pages
+    - Verified that each navigation link redirects to the intended page
+    - Verified that navigation links are correctly highlighted as active for the current page
+    - Verified that the navigation links shift so that they are stacked vertically under the heading on smaller screen sizes
+
+- Footer: the following steps repeated on all pages
+    - Verified that each social media link redirects correctly to the homepage of the relevant social media site
+    - Verified that on smaller screens below 750 pixels the footer does not remain fixed on the screen but appears only at the bottom of the content
+
+- Video: Gallery page only
+    - Verified that the user can play and pause the video as intended
+
+- Contact form: Trivia page only
+    - Verified that the form submits correctly and redirects to the "thankyou" page correctly when it is filled in as required
+    - Verified that the form cannot be submitted without the required fields filled in
+    - Verified that the form cannot be submitted without an email address (including an "@" symbol) in the email field
+
+### Cross-Browser Testing
+
+- Chrome was the browser used during the build phase of the website and so it has been extensively tested in Chrome
+
+- Firefox: the website loads normally and adjusts as designed when the browser window is resized to tablet and mobile size. The video plays and pauses, the form can be submitted as designed and cannot be submitted with required fields left blank, and the internal navigation links work.
+
+- Edge: the website loads normally and adjusts as designed when the browser window is resized to tablet and mobile size. The video plays and pauses, the form can be submitted as designed and cannot be submitted with required fields left blank, and the internal navigation links work.
+
+- Safari: the website loads normally on the latest version of Safari on tablets, mobiles and desktops, though see note below in the Bugs section about older versions. The video plays and pauses, the form can be submitted as designed and cannot be submitted with required fields left blank, and the internal navigation links work.
+
+### Validator Testing
+
+- [W3C HTML validator](https://validator.w3.org/)
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+
+The website was also tested for accessibility using Lighthouse in Dev Tools, with the following results:
+
+<img src="readme-images/Lighthouse.png" alt="Screenshot of Lighthouse scores: Performance 93%, Accessibility 100%, Best Practices 100%, SEO 100%, PWA blank">
+
+### Bugs
+
+The following bugs were found during build and have been resolved:
+
+- The contact form submit button was taking me to an error message code 501 instead of my form submission page.
+    - I searched on Slack in case others had had the same issue and it turned out I hadn’t realised I needed to push the changes to Github before this would work.
+    - After pushing the changes it still didn’t work initially but when I refreshed the browser to stop it using the cached version it worked perfectly.
+
+- Form submission was subsequently providing a “405 Not Allowed” message on submission.
+    - I discovered that this was because the form method was set to “POST”. While this is technically correct, it does not work here because the website does not have a functioning back end with a database for inputs to be posted to.
+    - To fix this I have changed the form method to “GET” and added a note in the HTML to explain that this is done here as a fix only.
+
+- Page titles and navigation menu are supposed to be vertically middle-aligned with each other on larger screens and were not ligning up correctly.
+    - I tried using the CSS "vertical-align: middle" on both elements without success.
+    - An internet search yielded [this article](https://www.w3schools.com/cssref/pr_dim_line-height.asp) and in particular the following entry in a table: “number: A number that will be multiplied with the current font-size to set the line height”.
+    - Since my font size for the page title was set to 200% and for the menu was set to 125%, I added a { line-height: .5; } to the title and a { line-height: .8 } to the menu and it then started to work as intended.
+
+- The bottom of the photo collage was jagged when viewed on all browser sizes, and I wasn’t able to think of a way to alter this through the CSS.
+    - I initially tried making all the images the same height in pixels before uploading them to Gitpod, but this didn’t fix the issue.
+    - I then altered the CSS to use flexbox styling for the container and set the maximum width of individual images within the container to 50% for small screens, 33% for medium screens and 25% for larger screens, which produced the desired result.
+
+- The top alignment of the first two sections on each page on larger screens where they are adjacent to each other was not correct, with the right-hand section (an image) appearing slightly above the left-hand section (a block of text on the Info and Trivia pages, and a video on the Gallery page).
+    - I had not noticed this after creating the Info page and before copying the html structure to the other pages because the effect is much less apparent when viewing the text + image than when viewing the video + image.
+    - To fix this I created a table comparing the positioning declarations applied to each selector and found that the padding was not the same between the different sections. 
+    - Adjusting the padding on the right-hand sections appeared the most likely adjustment that would not adversely affect the look of the rest of the website, and in some places would in fact have a positive impact.
+    - This fixed the problem, although on first viewing it looks as though the right-hand section on the gallery page is slightly lower than the left-hand section. This appears to be because the video on the left is black at the top whereas the image on the right is light grey, creating a visual illusion of the image being lower than the video. When viewed with gridlines on the screen they are clearly aligned.
+
+The following bugs remain unresolved:
+
+- On smaller mobile screens there is an issue where it becomes possible to scroll the page horizontally when the screen is below a certain size, although the content is not wider than the viewport. This bug remains, since I have tried the following steps without resolution:
+    - Inspecting the margins and padding applied to the page elements
+    - Resizing all the images to make them smaller
+    - Commenting out each line in turn of the CSS code in the media query section applied to the smallest-size screen
+    - Tutor support (suggested resizing images and checking padding, both of which I have done)
+    - Mentor support (mentor has been through the code with me on his own computer and has not been able to identify the source of the issue)
+
+- On older versions of Safari the photo collage on the Gallery page distorts on all screen sizes. For example, viewed on an iPad Air running software version 12.5.5, the collage appears as follows:
+
+<img src="readme-images/screenshots/old-safari-collage.JPG" alt="Screenshot of photo collage page with distortion">
+
+- However, on newer versions the photo collage appears correctly on all screen sizes. For example, viewed on a second generation iPad Pro running software version 15.4, the collage appears correctly:
+
+<img src="readme-images/screenshots/new-safari-collage.JPG" alt="Screenshot of photo collage page without distortion">
+
+- This bug also remains, since I have tried implementing a number of CSS suggestions found online without success. There are also practical limitations to further testing even were I to be able to develop a further fix, because I do not personally own or use the devices running older versions of Safari that have encountered this issue, and it is known that installing Safari on a Windows machine is likely to work imperfectly even in the absence of bugs.
+
+## Deployment
+
+The website was deployed to GitHub Pages. The steps taken to deploy are:
+- In the GitHub repository for the site, click on the ‘Settings’ tab along the top of the page
+- This brings up a General Settings page with a selection of menu items down the left-hand side
+- In this new menu, click on “Pages”
+- In the main body of the page, it is then possible to select a branch. Select the main branch. Click on “Save”
+- GitHub then provides a link to the published webpage, which can be clicked or copied and pasted like any other link
+
+## Credits
+
+### Content and Media
+
+- The text in the website is taken from the website of the [British Antarctic Survey](https://www.bas.ac.uk/about/antarctica/wildlife/penguins/) (with permission) or rewritten using information found on the [Wikipedia Penguin webpage](https://en.wikipedia.org/wiki/Penguin).
+- The pictures and video on the website were sourced from the stock photography sites [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/)
+
+### Code and Coding Guidelines
+
+- The only two pieces of code that are copied from elsewhere are as follows:
+    - The code to import Google Fonts for use in all text in the website body is taken from [Google Fonts](https://fonts.google.com/).
+    - Script and icon code for Font Awesome icons that accompany subheadings is taken from [Font Awesome](https://fontawesome.com/).
+
+- However, while researching and writing my project I also referred to the following resources:
+    - The [W3schools website](https://www.w3schools.com/), in particular the sections on HTML and CSS.
+    - The Love Running project on [Code Institute](https://codeinstitute.net/).
+
+### Other Credits
+
+- The Code Institute GitPod [template](https://github.com/Code-Institute-Org/gitpod-full-template) on GitHub was used to create my repository for this project.
+- [Balsamiq](https://balsamiq.com/) was used to develop wireframes for the project.
+- Thanks to Ed Stanley and Lorna Wilson for Safari testing and feedback.
