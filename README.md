@@ -21,7 +21,7 @@ The website has been developed to provide a solution for the following user stor
 - As a user who is doing research for a presentation, I want a site that is clear and informative.
 - As a user who is searching for trivia information (e.g., for a quiz), I want a site that contains interesting facts that are not necessarily well-known.
 - As a user who is just browsing, I want a beautiful site that is easy to read with interesting information.
-- As a user who is just browsing, I want a beautiful site with attractive images
+- As a user who is just browsing, I want a beautiful site with attractive images.
 - As a user who is particularly interested in and enjoys the subject matter, I want to enhance my knowledge.
 - As a user who is particularly interested in and enjoys the subject matter, I want to be able to ask further questions to find out more.
 - As a user who is particularly interested in and enjoys the subject matter, I want to follow the page on social media, so I can see more information about real-life experiences or updates to the site.
@@ -51,8 +51,8 @@ The website includes the following information:
 - A contact form to ask about further information, for the user who is particularly interested in the subject matter
 
 The following elements were considered but ultimately deemed to be out of scope of the current website. They could be added to a future version:
-- Additional factual information about penguins: excluded because it could have led to 'information overload' with too much information for users to absorb
-- A quiz for users to test their knowledge and win a prize: excluded because it is not effective to design a quiz with the HTML and CSS technologies used in this project; it would be better with JavaScript, which is beyond the scope of this project
+- Additional factual information about penguins: excluded because it could have led to 'information overload' with too much information for users to absorb.
+- A quiz for users to test their knowledge and win a prize: excluded because it is not effective to design a quiz with the HTML and CSS technologies used in this project; it would be better with JavaScript, which is beyond the scope of this project.
 
 ### Plane 3: Structure
 
@@ -66,7 +66,11 @@ The website is multi-page to enable easier navigation. Navigation could be diffi
 
 ### Plane 4: Skeleton
 
-wireframes 
+Wireframes for mobile, tablet and desktop can be seen [here](readme-images/wireframes.pdf). There are some minor differences between the wireframes and the finished project, since the wireframes were designed before starting the build and some edits were made along the way. These are as follows:
+- The navigation bar is located below the page title on tablet as well as mobile, and when in this location the links are stacked on top of one another rather than appearing in a horizontal orientation. Both of these adjustments were to improve layout and usability.
+- On the Info page, the scientific classification info appears below the height and weight info on large and medium screens, rather than adjacent to it. Again, this is to improve the layout of the website and avoids overcrowding.
+- On the Gallery page, there is only one standalone image rather than two, since this improves the layout and look on large and medium screens.
+- On the Trivia page, again, fewer standalone images are used in order to avoid overcrowding and improve layout. An extra image is used on mobile screens to break up the text and improve the user experience of the page.
 
 ### Plane 5: Surface
 
@@ -145,8 +149,8 @@ The website is designed to maintain consistency of look and feel. For example, a
 
 - The trivia page also includes a contact form, so that users can submit questions that are not already answered on the site.
 - The form includes fields for a user to provide their first name, last name and email address, as well as a free text section for users to ask for more information.
-- The user’s first name, email address and comments or questions are required fields on the form, so that questions can be received and a response can be correctly addressed and sent
-- The last name is optional, since it is not necessary to collect this information in order to fulfil the purpose of the form. Some users may prefer not to provide their last name, and in some cultures people do not necessarily have both first and last names
+- The user’s first name, email address and comments or questions are required fields on the form, so that questions can be received and a response can be correctly addressed and sent.
+- The last name is optional, since it is not necessary to collect this information in order to fulfil the purpose of the form. Some users may prefer not to provide their last name, and in some cultures people do not necessarily have both first and last names.
 
 ### "Form Received" page
 
@@ -190,7 +194,7 @@ As mentioned above, the following elements were not included at this stage but c
 
 ## Testing
 
-- Testing during coding took place by refreshing the browser preview in Chrome after each significant new section of code was written. Once the website started to take shape and especially as media queries were added, viewing the preview regularly on Dev Tools in Chrome was also important.
+- Testing during coding took place by refreshing the browser preview in Chrome after each significant new section of code was written. Once the website started to take shape and especially as media queries were added, viewing the preview regularly on Dev Tools in Chrome also became important.
 
 ### Manual Testing
 
@@ -213,7 +217,7 @@ As mentioned above, the following elements were not included at this stage but c
 
 ### Cross-Browser Testing
 
-- Chrome was the browser used during the build phase of the website and so it has been extensively tested in Chrome
+- Chrome was the browser used during the build phase of the website and so it has been extensively tested in Chrome.
 
 - Firefox: the website loads normally and adjusts as designed when the browser window is resized to tablet and mobile size. The video plays and pauses, the form can be submitted as designed and cannot be submitted with required fields left blank, and the internal navigation links work.
 
@@ -249,7 +253,7 @@ The following bugs were found during build and have been resolved:
 
 - The bottom of the photo collage was jagged when viewed on all browser sizes, and I wasn’t able to think of a way to alter this through the CSS.
     - I initially tried making all the images the same height in pixels before uploading them to Gitpod, but this didn’t fix the issue.
-    - I then altered the CSS to use flexbox styling for the container and set the maximum width of individual images within the container to 50% for small screens, 33% for medium screens and 25% for larger screens, which produced the desired result.
+    - I then altered the CSS to use flexbox styling instead of masonry design for the container and set the maximum width of individual images within the container to 50% for small screens, 33% for medium screens and 25% for larger screens, which produced the desired result.
 
 - The top alignment of the first two sections on each page on larger screens where they are adjacent to each other was not correct, with the right-hand section (an image) appearing slightly above the left-hand section (a block of text on the Info and Trivia pages, and a video on the Gallery page).
     - I had not noticed this after creating the Info page and before copying the html structure to the other pages because the effect is much less apparent when viewing the text + image than when viewing the video + image.
@@ -279,18 +283,18 @@ The following bugs remain unresolved:
 ## Deployment
 
 The website was deployed to GitHub Pages. The steps taken to deploy are:
-- In the GitHub repository for the site, click on the ‘Settings’ tab along the top of the page
-- This brings up a General Settings page with a selection of menu items down the left-hand side
-- In this new menu, click on “Pages”
-- In the main body of the page, it is then possible to select a branch. Select the main branch. Click on “Save”
-- GitHub then provides a link to the published webpage, which can be clicked or copied and pasted like any other link
+- In the GitHub repository for the site, click on the ‘Settings’ tab along the top of the page.
+- This brings up a General Settings page with a selection of menu items down the left-hand side.
+- In this new menu, click on “Pages”.
+- In the main body of the page, it is then possible to select a branch. Select the main branch. Click on “Save”.
+- GitHub then provides a link to the published webpage, which can be clicked or copied and pasted like any other link.
 
 ## Credits
 
 ### Content and Media
 
 - The text in the website is taken from the website of the [British Antarctic Survey](https://www.bas.ac.uk/about/antarctica/wildlife/penguins/) (with permission) or rewritten using information found on the [Wikipedia Penguin webpage](https://en.wikipedia.org/wiki/Penguin).
-- The pictures and video on the website were sourced from the stock photography sites [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/)
+- The pictures and video on the website were sourced from the stock photography sites [Pexels](https://www.pexels.com/), [Unsplash](https://unsplash.com/) and [Pixabay](https://pixabay.com/).
 
 ### Code and Coding Guidelines
 
@@ -299,7 +303,7 @@ The website was deployed to GitHub Pages. The steps taken to deploy are:
     - Script and icon code for Font Awesome icons that accompany subheadings is taken from [Font Awesome](https://fontawesome.com/).
 
 - However, while researching and writing my project I also referred to the following resources:
-    - The [W3schools website](https://www.w3schools.com/), in particular the sections on HTML and CSS.
+    - The [W3schools](https://www.w3schools.com/) website, in particular the sections on HTML and CSS.
     - The Love Running project on [Code Institute](https://codeinstitute.net/).
 
 ### Other Credits
@@ -307,3 +311,5 @@ The website was deployed to GitHub Pages. The steps taken to deploy are:
 - The Code Institute GitPod [template](https://github.com/Code-Institute-Org/gitpod-full-template) on GitHub was used to create my repository for this project.
 - [Balsamiq](https://balsamiq.com/) was used to develop wireframes for the project.
 - Thanks to Ed Stanley and Lorna Wilson for Safari testing and feedback.
+- Thank you to my mentor Dick Vlaanderen for project guidance and review.
+- Thanks to my fellow students for support, advice and encouragement via Slack.
