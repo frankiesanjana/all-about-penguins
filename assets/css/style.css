@@ -236,6 +236,12 @@ button {
     color: black;
 }
 
+#link-home {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* media queries */
 
 /* medium to large screen sizes up to 1000 pixels */

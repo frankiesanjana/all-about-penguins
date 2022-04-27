@@ -278,7 +278,7 @@ The following bugs remain unresolved:
 
 <img src="readme-images/screenshots/new-safari-collage.JPG" alt="Screenshot of photo collage page without distortion">
 
-- This bug also remains, since I have tried implementing a number of CSS suggestions found online without success. There are also practical limitations to further testing even were I to be able to develop a further fix, because I do not personally own or use the devices running older versions of Safari that have encountered this issue, and it is known that installing Safari on a Windows machine is likely to work imperfectly even in the absence of bugs.
+- This bug also remains, since I have tried implementing a number of CSS suggestions found online without success. These include changing the flex direction from row to column, adding an align-items property to the container, setting padding to zero on the container and specifying vertical height of the images within the container. There are also practical limitations to further testing even were I to be able to develop a further fix, because I do not personally own or use the devices running older versions of Safari that have encountered this issue, and it is known that installing Safari on a Windows machine is likely to work imperfectly even in the absence of bugs.
 
 ## Deployment
 
