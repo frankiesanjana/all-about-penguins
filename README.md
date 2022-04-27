@@ -204,7 +204,7 @@ As mentioned above, the following elements were not included at this stage but c
     - Verified that the navigation links shift so that they are stacked vertically under the heading on smaller screen sizes
 
 - Footer: the following steps repeated on all pages
-    - Verified that each social media link redirects correctly to the homepage of the relevant social media site
+    - Verified that each of the social media links for Instagram, Facebook and Twitter, redirects correctly to the homepage of the relevant social media site
     - Verified that on smaller screens below 750 pixels the footer does not remain fixed on the screen but appears only at the bottom of the content
 
 - Video: Gallery page only
@@ -214,6 +214,9 @@ As mentioned above, the following elements were not included at this stage but c
     - Verified that the form submits correctly and redirects to the "thankyou" page correctly when it is filled in as required
     - Verified that the form cannot be submitted without the required fields filled in
     - Verified that the form cannot be submitted without an email address (including an "@" symbol) in the email field
+
+- Redirection to main page: Thank You page only
+    - Verified that the link to redirect users to the Info page redirects correctly to the page as intended
 
 ### Cross-Browser Testing
 
@@ -288,6 +291,32 @@ The website was deployed to GitHub Pages. The steps taken to deploy are:
 - In this new menu, click on “Pages”.
 - In the main body of the page, it is then possible to select a branch. Select the main branch. Click on “Save”.
 - GitHub then provides a link to the published webpage, which can be clicked or copied and pasted like any other link.
+- Further updates that are pushed to the branch will automatically appear in GitHub Pages.
+
+### Forking a GitHub repository
+
+It is possible to copy the repository in order to experiment with your own changes without affecting the original project. The steps to do this as as follows:
+- Navigate to the GitHub website.
+- Log in if necessary.
+- Navigate to the repository that you want to fork.
+- In the top right-hand corner of the page, click on "fork".
+- You will be taken to a page to create your own fork. You can edit the project name and add a description (optional).
+- Click on "create fork" to complete the process.
+
+### Cloning a GitHub repository
+
+It is also possible to copy the repository onto your own local machine. In practice, this might be done to make it easier to fix merge conflicts, add or remove files, and push larger commits. To do this, follow these steps:
+- Navigate to the GitHub website.
+- Log in if necessary.
+- Navigate to the repository that you want to clone.
+- Above the list of files, find the "Code" button and click on it:
+<br>
+<img src="readme-images/code-button.png" alt="Picture of code button on GitHub">
+- To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon.
+- Open your computer terminal.
+- Change the current working directory to the location where you want the cloned directory.
+- Type "git clone" and then paste the location that you have copied.
+- Press "enter" and your local clone will be created.
 
 ## Credits
 
