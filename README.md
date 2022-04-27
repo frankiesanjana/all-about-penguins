@@ -312,6 +312,7 @@ It is also possible to copy the repository onto your own local machine. In pract
 - Above the list of files, find the "Code" button and click on it:
 <br>
 <img src="readme-images/code-button.png" alt="Picture of code button on GitHub">
+<br>
 - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard icon.
 - Open your computer terminal.
 - Change the current working directory to the location where you want the cloned directory.
