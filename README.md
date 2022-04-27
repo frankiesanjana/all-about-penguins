@@ -128,7 +128,7 @@ The website is designed to maintain consistency of look and feel. For example, a
 
 - This page begins with a video, to allow users to see penguin behaviour in motion.
 
-<img src="readme-images/screenshots/gallery-collage.jpg" alt="Screenshot of the gallery page with photo collage as it appears on mobile">
+<img src="readme-images/screenshots/collage.jpg" alt="Screenshot of the gallery page with photo collage as it appears on mobile">
 
 - The page also features plenty of images for users to enjoy and to learn more about the different types of penguins and what they look like. This includes a photo collage, which is designed using media queries to adjust in size based on the user's screen size, from 2 pictures wide on mobile devices up to 4 pictures wide on larger screens.
 
@@ -232,7 +232,7 @@ As mentioned above, the following elements were not included at this stage but c
 
 The website was also tested for accessibility using Lighthouse in Dev Tools, with the following results:
 
-<img src="readme-images/Lighthouse.png" alt="Screenshot of Lighthouse scores: Performance 93%, Accessibility 100%, Best Practices 100%, SEO 100%, PWA blank">
+<img src="readme-images/Lighthouse.png" alt="Screenshot of Lighthouse scores: Performance 96%, Accessibility 100%, Best Practices 100%, SEO 100%, PWA blank">
 
 ### Bugs
 
@@ -272,7 +272,7 @@ The following bugs remain unresolved:
 
 - On older versions of Safari the photo collage on the Gallery page distorts on all screen sizes. For example, viewed on an iPad Air running software version 12.5.5, the collage appears as follows:
 
-<img src="readme-images/screenshots/old-safari-collage.JPG" alt="Screenshot of photo collage page with distortion">
+<img src="readme-images/screenshots/older-safari-collage.JPG" alt="Screenshot of photo collage page with distortion">
 
 - However, on newer versions the photo collage appears correctly on all screen sizes. For example, viewed on a second generation iPad Pro running software version 15.4, the collage appears correctly:
 
